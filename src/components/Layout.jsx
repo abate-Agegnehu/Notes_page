@@ -51,26 +51,7 @@ const useStyles = makeStyles((theme) => {
   };
 });
 
-// const drawerWidth = 240;
-// const useStyles = makeStyles({
-//   page: {
-//     background: "#f9f9f9",
-//     width: "100%",
-//     padding:20
-//   },
-//   drawer: {
-//     width: drawerWidth,
-//   },
-//   drawerPaper: {
-//     width: drawerWidth,
-//   },
-//   root: {
-//     display: "flex",
-//   },
-//   active: {
-//     background: "#00FF00",
-//   },
-// });
+
 
 function Layout({ children }) {
   const classes = useStyles();
